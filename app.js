@@ -58,12 +58,25 @@
 
 //täisarv on paarisarv või mitte
 
-let a = 1
+//let a = 1
+//
+//if (a%2==0){
+//    integer='täis'
+//}
+//else if (a%2==1){
+//    integer="paaritu"
+//}
+//console.log(integer)
 
-if (a%2==0){
-    integer='täis'
+
+//liigaasta
+
+let a = 2002
+
+if (a%4==0){
+    leapyear
 }
-else if (a%2==1){
-    integer="paaritu"
+else if(a%100==1){
+
 }
-console.log(integer)
+else if(a%400==)
