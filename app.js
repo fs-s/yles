@@ -27,13 +27,30 @@
 //console.log(a + " + " + b + " + " + c + " = " + sum)
 
 //min
-let a = 4
-let b = 3
+//let a = 4
+//let b = 3
+//
+//if (a > b) {
+//    minnumber = b
+//} else if (b > a) {
+//    minnumber = a
+//}
+//
+//console.log(minnumber)
 
-if (a > b) {
-    minnumber = b
-} else if (b > a) {
-    minnumber = a
-}
 
-console.log(minnumber)
+//yl5
+
+//yl6
+
+let a = 3
+let b = 2
+let c = 1
+
+if (a > b & a > c) {
+    maxnumber = a
+} else if (b > a & b > c) {
+    maxnumber = b
+} else if (c > a & c > b )
+    maxnumber = c
+console.log(maxnumber)
