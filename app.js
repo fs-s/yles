@@ -43,14 +43,27 @@
 
 //yl6
 
-let a = 3
-let b = 2
-let c = 1
+//let a = 3
+//let b = 2
+//let c = 1
+//
+//if (a > b & a > c) {
+//    maxnumber = a
+//} else if (b > a & b > c) {
+//    maxnumber = b
+//} else if (c > a & c > b )
+//    maxnumber = c
+//console.log(maxnumber)
+//
 
-if (a > b & a > c) {
-    maxnumber = a
-} else if (b > a & b > c) {
-    maxnumber = b
-} else if (c > a & c > b )
-    maxnumber = c
-console.log(maxnumber)
+//täisarv on paarisarv või mitte
+
+let a = 1
+
+if (a%2==0){
+    integer='täis'
+}
+else if (a%2==1){
+    integer="paaritu"
+}
+console.log(integer)
