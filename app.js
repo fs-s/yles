@@ -19,16 +19,21 @@
 
 
 
-let a = 1
-let b = a.toString() + a.toString()
-let c = a.toString() + a + a
-let sum = a + parseInt(b) + parseInt(c)
+//let a = 5
+//let b = a.toString() + a.toString()
+//let c = a.toString() + a + a
+//let sum = a + parseInt(b) + parseInt(c)
 
-console.log(a + " + " + b + " + " + c + " = " + sum)
+//console.log(a + " + " + b + " + " + c + " = " + sum)
 
-// min
+//min
+let a = 4
+let b = 3
 
-//let number1 = 5
-//let number2 = 7
-//
-//console.log(Math.min(number1, number2))
+if (a > b) {
+    minnumber = b
+} else if (b > a) {
+    minnumber = a
+}
+
+console.log(minnumber)
